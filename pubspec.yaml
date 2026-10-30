@@ -1,0 +1,19 @@
+name: tic_tac_toe_p2p
+description: Cross-platform direct-IP tic-tac-toe for iOS and Android, including cellular via Tailscale.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
